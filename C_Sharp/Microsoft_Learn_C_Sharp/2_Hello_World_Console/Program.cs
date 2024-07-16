@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Read name from console
-Console.WriteLine("What is your name?");
+Console.WriteLine("Please tell me your name?");
 var name = Console.ReadLine();
 // Get current date and time
 var currentDate = DateTime.Now;
