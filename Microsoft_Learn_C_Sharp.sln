@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C_Sharp", "C_Sharp", "{FB2DE57B-435F-4B36-B955-D43B8A93C48C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft_Learn_C_Sharp", "Microsoft_Learn_C_Sharp", "{2FF9A990-F9BE-4614-B7F5-F88D7401FF7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18_Object_Oriented_Programming", "18_Object_Oriented_Programming", "{C883E8A2-F86A-4C4E-BF64-234ED7BBC189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object_Oriented_Programming", "C_Sharp\Microsoft_Learn_C_Sharp\18_Object_Oriented_Programming\Object_Oriented_Programming\Object_Oriented_Programming.csproj", "{32B3C93A-F825-4130-8BCA-F10A506E67E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32B3C93A-F825-4130-8BCA-F10A506E67E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B3C93A-F825-4130-8BCA-F10A506E67E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B3C93A-F825-4130-8BCA-F10A506E67E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B3C93A-F825-4130-8BCA-F10A506E67E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FF9A990-F9BE-4614-B7F5-F88D7401FF7A} = {FB2DE57B-435F-4B36-B955-D43B8A93C48C}
+		{C883E8A2-F86A-4C4E-BF64-234ED7BBC189} = {2FF9A990-F9BE-4614-B7F5-F88D7401FF7A}
+		{32B3C93A-F825-4130-8BCA-F10A506E67E8} = {C883E8A2-F86A-4C4E-BF64-234ED7BBC189}
+	EndGlobalSection
+EndGlobal
