@@ -3,7 +3,7 @@
 Console.WriteLine("Working With Strings");
 // Declare a string - extra spaces are for demonstration
 string firstName = "            Fredric";
-string lastName = "Gluck           ";
+string lastName = "Gluck            ";
 string fullName;
 string jobTitle = " Senior Instructor   ";
 // Methods for String Objects
