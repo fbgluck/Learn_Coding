@@ -1,0 +1,14 @@
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\bin\Debug\net8.0\15_LINQandIEnumerable.exe
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\bin\Debug\net8.0\15_LINQandIEnumerable.deps.json
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\bin\Debug\net8.0\15_LINQandIEnumerable.runtimeconfig.json
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\bin\Debug\net8.0\15_LINQandIEnumerable.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\bin\Debug\net8.0\15_LINQandIEnumerable.pdb
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\obj\Debug\net8.0\15_LINQandIEnumerable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\obj\Debug\net8.0\15_LINQandIEnumerable.AssemblyInfoInputs.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\obj\Debug\net8.0\15_LINQandIEnumerable.AssemblyInfo.cs
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\obj\Debug\net8.0\15_LINQandIEnumerable.csproj.CoreCompileInputs.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\obj\Debug\net8.0\15_LINQandIEnumerable.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\obj\Debug\net8.0\refint\15_LINQandIEnumerable.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\obj\Debug\net8.0\15_LINQandIEnumerable.pdb
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\obj\Debug\net8.0\15_LINQandIEnumerable.genruntimeconfig.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\15_LINQandIEnumerable\obj\Debug\net8.0\ref\15_LINQandIEnumerable.dll

@@ -1,0 +1,14 @@
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\bin\Debug\net8.0\12_ListsAndCollections.exe
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\bin\Debug\net8.0\12_ListsAndCollections.deps.json
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\bin\Debug\net8.0\12_ListsAndCollections.runtimeconfig.json
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\bin\Debug\net8.0\12_ListsAndCollections.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\bin\Debug\net8.0\12_ListsAndCollections.pdb
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\obj\Debug\net8.0\12_ListsAndCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\obj\Debug\net8.0\12_ListsAndCollections.AssemblyInfoInputs.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\obj\Debug\net8.0\12_ListsAndCollections.AssemblyInfo.cs
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\obj\Debug\net8.0\12_ListsAndCollections.csproj.CoreCompileInputs.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\obj\Debug\net8.0\12_ListsAndCollections.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\obj\Debug\net8.0\refint\12_ListsAndCollections.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\obj\Debug\net8.0\12_ListsAndCollections.pdb
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\obj\Debug\net8.0\12_ListsAndCollections.genruntimeconfig.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\12_ListsAndCollections\obj\Debug\net8.0\ref\12_ListsAndCollections.dll

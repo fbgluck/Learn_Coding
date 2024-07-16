@@ -1,0 +1,14 @@
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\obj\Debug\net8.0\14_SortingSearchingLists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\obj\Debug\net8.0\14_SortingSearchingLists.AssemblyInfoInputs.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\obj\Debug\net8.0\14_SortingSearchingLists.AssemblyInfo.cs
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\obj\Debug\net8.0\14_SortingSearchingLists.csproj.CoreCompileInputs.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\bin\Debug\net8.0\14_SortingSearchingLists.exe
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\bin\Debug\net8.0\14_SortingSearchingLists.deps.json
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\bin\Debug\net8.0\14_SortingSearchingLists.runtimeconfig.json
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\bin\Debug\net8.0\14_SortingSearchingLists.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\bin\Debug\net8.0\14_SortingSearchingLists.pdb
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\obj\Debug\net8.0\14_SortingSearchingLists.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\obj\Debug\net8.0\refint\14_SortingSearchingLists.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\obj\Debug\net8.0\14_SortingSearchingLists.pdb
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\obj\Debug\net8.0\14_SortingSearchingLists.genruntimeconfig.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\14_SortingSearchingLists\obj\Debug\net8.0\ref\14_SortingSearchingLists.dll

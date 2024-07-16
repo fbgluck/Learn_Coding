@@ -1,0 +1,14 @@
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\bin\Debug\net8.0\10_WhileLoops.exe
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\bin\Debug\net8.0\10_WhileLoops.deps.json
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\bin\Debug\net8.0\10_WhileLoops.runtimeconfig.json
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\bin\Debug\net8.0\10_WhileLoops.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\bin\Debug\net8.0\10_WhileLoops.pdb
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\obj\Debug\net8.0\10_WhileLoops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\obj\Debug\net8.0\10_WhileLoops.AssemblyInfoInputs.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\obj\Debug\net8.0\10_WhileLoops.AssemblyInfo.cs
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\obj\Debug\net8.0\10_WhileLoops.csproj.CoreCompileInputs.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\obj\Debug\net8.0\10_WhileLoops.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\obj\Debug\net8.0\refint\10_WhileLoops.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\obj\Debug\net8.0\10_WhileLoops.pdb
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\obj\Debug\net8.0\10_WhileLoops.genruntimeconfig.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\10_WhileLoops\obj\Debug\net8.0\ref\10_WhileLoops.dll

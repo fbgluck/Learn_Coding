@@ -1,0 +1,14 @@
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\bin\Debug\net8.0\RectangleAreaCalculator.exe
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\bin\Debug\net8.0\RectangleAreaCalculator.deps.json
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\bin\Debug\net8.0\RectangleAreaCalculator.runtimeconfig.json
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\bin\Debug\net8.0\RectangleAreaCalculator.dll
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\bin\Debug\net8.0\RectangleAreaCalculator.pdb
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\obj\Debug\net8.0\RectangleAreaCalculator.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\obj\Debug\net8.0\RectangleAreaCalculator.AssemblyInfoInputs.cache
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\obj\Debug\net8.0\RectangleAreaCalculator.AssemblyInfo.cs
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\obj\Debug\net8.0\RectangleAreaCalculator.csproj.CoreCompileInputs.cache
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\obj\Debug\net8.0\RectangleAreaCalculator.dll
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\obj\Debug\net8.0\refint\RectangleAreaCalculator.dll
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\obj\Debug\net8.0\RectangleAreaCalculator.pdb
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\obj\Debug\net8.0\RectangleAreaCalculator.genruntimeconfig.cache
+c:\Users\fgluck\Documents\coding_projects_local\C_Sharp\RectangleAreaCalculator\obj\Debug\net8.0\ref\RectangleAreaCalculator.dll

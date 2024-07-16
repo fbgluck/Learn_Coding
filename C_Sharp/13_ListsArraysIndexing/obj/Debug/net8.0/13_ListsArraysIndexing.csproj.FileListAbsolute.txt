@@ -1,0 +1,14 @@
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\bin\Debug\net8.0\13_ListsArraysIndexing.exe
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\bin\Debug\net8.0\13_ListsArraysIndexing.deps.json
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\bin\Debug\net8.0\13_ListsArraysIndexing.runtimeconfig.json
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\bin\Debug\net8.0\13_ListsArraysIndexing.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\bin\Debug\net8.0\13_ListsArraysIndexing.pdb
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\obj\Debug\net8.0\13_ListsArraysIndexing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\obj\Debug\net8.0\13_ListsArraysIndexing.AssemblyInfoInputs.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\obj\Debug\net8.0\13_ListsArraysIndexing.AssemblyInfo.cs
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\obj\Debug\net8.0\13_ListsArraysIndexing.csproj.CoreCompileInputs.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\obj\Debug\net8.0\13_ListsArraysIndexing.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\obj\Debug\net8.0\refint\13_ListsArraysIndexing.dll
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\obj\Debug\net8.0\13_ListsArraysIndexing.pdb
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\obj\Debug\net8.0\13_ListsArraysIndexing.genruntimeconfig.cache
+C:\Users\fgluck\Documents\coding_projects_local\C_Sharp\13_ListsArraysIndexing\obj\Debug\net8.0\ref\13_ListsArraysIndexing.dll
