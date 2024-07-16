@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\9_BranchingAndConditionals\\BranchingAndConditionals.csproj",
+      "projectUniqueName": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\9_BranchingAndConditionals\\BranchingAndConditionals.csproj",
       "projectName": "BranchingAndConditionals",
-      "projectPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\9_BranchingAndConditionals\\BranchingAndConditionals.csproj",
+      "projectPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\9_BranchingAndConditionals\\BranchingAndConditionals.csproj",
       "packagesPath": "C:\\Users\\fgluck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\9_BranchingAndConditionals\\obj\\",
+      "outputPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\9_BranchingAndConditionals\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fgluck\\AppData\\Roaming\\NuGet\\NuGet.Config"

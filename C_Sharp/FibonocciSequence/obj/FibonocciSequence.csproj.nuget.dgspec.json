@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\FibonocciSequence\\FibonocciSequence.csproj": {}
+    "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\FibonocciSequence\\FibonocciSequence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\FibonocciSequence\\FibonocciSequence.csproj": {
+    "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\FibonocciSequence\\FibonocciSequence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\FibonocciSequence\\FibonocciSequence.csproj",
+        "projectUniqueName": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\FibonocciSequence\\FibonocciSequence.csproj",
         "projectName": "FibonocciSequence",
-        "projectPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\FibonocciSequence\\FibonocciSequence.csproj",
+        "projectPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\FibonocciSequence\\FibonocciSequence.csproj",
         "packagesPath": "C:\\Users\\fgluck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\FibonocciSequence\\obj\\",
+        "outputPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\FibonocciSequence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fgluck\\AppData\\Roaming\\NuGet\\NuGet.Config"

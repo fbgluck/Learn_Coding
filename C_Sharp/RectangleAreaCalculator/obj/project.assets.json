@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\RectangleAreaCalculator\\RectangleAreaCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\RectangleAreaCalculator\\RectangleAreaCalculator.csproj",
       "projectName": "RectangleAreaCalculator",
-      "projectPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\RectangleAreaCalculator\\RectangleAreaCalculator.csproj",
+      "projectPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\RectangleAreaCalculator\\RectangleAreaCalculator.csproj",
       "packagesPath": "C:\\Users\\fgluck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\RectangleAreaCalculator\\obj\\",
+      "outputPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\RectangleAreaCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fgluck\\AppData\\Roaming\\NuGet\\NuGet.Config"

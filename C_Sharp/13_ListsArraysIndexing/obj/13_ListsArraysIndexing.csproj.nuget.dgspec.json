@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\13_ListsArraysIndexing\\13_ListsArraysIndexing.csproj": {}
+    "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\13_ListsArraysIndexing\\13_ListsArraysIndexing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\13_ListsArraysIndexing\\13_ListsArraysIndexing.csproj": {
+    "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\13_ListsArraysIndexing\\13_ListsArraysIndexing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\13_ListsArraysIndexing\\13_ListsArraysIndexing.csproj",
+        "projectUniqueName": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\13_ListsArraysIndexing\\13_ListsArraysIndexing.csproj",
         "projectName": "13_ListsArraysIndexing",
-        "projectPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\13_ListsArraysIndexing\\13_ListsArraysIndexing.csproj",
+        "projectPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\13_ListsArraysIndexing\\13_ListsArraysIndexing.csproj",
         "packagesPath": "C:\\Users\\fgluck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\13_ListsArraysIndexing\\obj\\",
+        "outputPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\13_ListsArraysIndexing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fgluck\\AppData\\Roaming\\NuGet\\NuGet.Config"

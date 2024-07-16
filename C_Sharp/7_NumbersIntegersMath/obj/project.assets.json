@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\7_NumbersIntegersMath\\WorkingWithNumbers.csproj",
+      "projectUniqueName": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\7_NumbersIntegersMath\\WorkingWithNumbers.csproj",
       "projectName": "WorkingWithNumbers",
-      "projectPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\7_NumbersIntegersMath\\WorkingWithNumbers.csproj",
+      "projectPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\7_NumbersIntegersMath\\WorkingWithNumbers.csproj",
       "packagesPath": "C:\\Users\\fgluck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\7_NumbersIntegersMath\\obj\\",
+      "outputPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\7_NumbersIntegersMath\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fgluck\\AppData\\Roaming\\NuGet\\NuGet.Config"

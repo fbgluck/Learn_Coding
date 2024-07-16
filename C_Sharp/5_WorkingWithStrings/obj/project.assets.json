@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\5_WorkingWithStrings\\WorkingWithStrings.csproj",
+      "projectUniqueName": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\5_WorkingWithStrings\\WorkingWithStrings.csproj",
       "projectName": "WorkingWithStrings",
-      "projectPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\5_WorkingWithStrings\\WorkingWithStrings.csproj",
+      "projectPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\5_WorkingWithStrings\\WorkingWithStrings.csproj",
       "packagesPath": "C:\\Users\\fgluck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fgluck\\Documents\\coding_projects_local\\C_Sharp\\5_WorkingWithStrings\\obj\\",
+      "outputPath": "C:\\Users\\fgluck\\Documents\\Coding_Projects\\C_Sharp\\5_WorkingWithStrings\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fgluck\\AppData\\Roaming\\NuGet\\NuGet.Config"
