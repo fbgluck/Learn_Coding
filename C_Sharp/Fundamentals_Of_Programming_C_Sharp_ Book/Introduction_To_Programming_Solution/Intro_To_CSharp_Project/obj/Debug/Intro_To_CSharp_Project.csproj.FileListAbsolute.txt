@@ -1,0 +1,6 @@
+C:\Users\fgluck\Coding Projects\Intro_To_Programming\Introduction_To_Programming_Solution\Intro_To_CSharp_Project\bin\Debug\Intro_To_CSharp_Project.exe.config
+C:\Users\fgluck\Coding Projects\Intro_To_Programming\Introduction_To_Programming_Solution\Intro_To_CSharp_Project\bin\Debug\Intro_To_CSharp_Project.exe
+C:\Users\fgluck\Coding Projects\Intro_To_Programming\Introduction_To_Programming_Solution\Intro_To_CSharp_Project\bin\Debug\Intro_To_CSharp_Project.pdb
+C:\Users\fgluck\Coding Projects\Intro_To_Programming\Introduction_To_Programming_Solution\Intro_To_CSharp_Project\obj\Debug\Intro_To_CSharp_Project.csprojResolveAssemblyReference.cache
+C:\Users\fgluck\Coding Projects\Intro_To_Programming\Introduction_To_Programming_Solution\Intro_To_CSharp_Project\obj\Debug\Intro_To_CSharp_Project.exe
+C:\Users\fgluck\Coding Projects\Intro_To_Programming\Introduction_To_Programming_Solution\Intro_To_CSharp_Project\obj\Debug\Intro_To_CSharp_Project.pdb

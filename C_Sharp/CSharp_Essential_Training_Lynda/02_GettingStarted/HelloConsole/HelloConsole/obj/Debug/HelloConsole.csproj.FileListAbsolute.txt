@@ -1,0 +1,6 @@
+H:\Ex_Files_C_Sharp_EssT\Exercise Files\02_GettingStarted\HelloConsole\HelloConsole\bin\Debug\HelloConsole.exe.config
+H:\Ex_Files_C_Sharp_EssT\Exercise Files\02_GettingStarted\HelloConsole\HelloConsole\bin\Debug\HelloConsole.exe
+H:\Ex_Files_C_Sharp_EssT\Exercise Files\02_GettingStarted\HelloConsole\HelloConsole\bin\Debug\HelloConsole.pdb
+H:\Ex_Files_C_Sharp_EssT\Exercise Files\02_GettingStarted\HelloConsole\HelloConsole\obj\Debug\HelloConsole.csprojResolveAssemblyReference.cache
+H:\Ex_Files_C_Sharp_EssT\Exercise Files\02_GettingStarted\HelloConsole\HelloConsole\obj\Debug\HelloConsole.exe
+H:\Ex_Files_C_Sharp_EssT\Exercise Files\02_GettingStarted\HelloConsole\HelloConsole\obj\Debug\HelloConsole.pdb

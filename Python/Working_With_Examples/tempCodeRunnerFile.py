@@ -1,0 +1,1 @@
+print(f'\n#16:: Easily Creating A Long String of the Same Characters')

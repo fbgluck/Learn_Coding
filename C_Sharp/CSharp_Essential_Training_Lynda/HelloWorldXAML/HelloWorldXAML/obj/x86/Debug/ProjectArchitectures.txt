@@ -1,0 +1,1 @@
+C:\Users\fgluck\Source\Repositories\Learn_CSharp_Programming\Learn_CSharp_Programming\HelloWorldXAML\HelloWorldXAML\HelloWorldXAML.csproj;x86
