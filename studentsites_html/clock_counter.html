@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Countdown Timer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/clock_counter.css">
+        <link rel="stylesheet" href="./css/global-css.css">
+    </head>
+    <body onload = "initializeCounter()">
+        <div id="outerWrapper">
+            <div id="logoArea">
+                <!--#include virtual="./includes/logoarea.html" -->
+            </div>
+            <div id="headerArea">
+                <!--#include virtual="./includes/header.html" -->
+            </div>
+            <div id="leftSidebarArea">
+                <!--#include virtual="./includes/left_sidebar.html" -->
+            </div>
+        <div id="contentArea">
+            <!-- COUNTER -->
+            <div id="counterWrapper">
+                <div id="title">
+                    <h2>Countdown Timer</h2>
+                </div>
+
+                <div id="counterValue">
+                    0
+                </div>
+                <div id="buttonArea">
+                    <button class="actionButton" id="countUp" type="button" onclick="doCounter(1)">+</button>
+                    <button class="actionButton" id="countDown" type="button" onclick="doCounter(0)">-</button>
+                    <button class="actionButton" id ="autoCountdown" type="button" onclick = "startCountdown()"><img src="./images/down_button_80_80.png"</button>
+                </div>
+            </div>
+        </div>
+        <script src="./javascript/clock_counter/clock_counter.js" async defer></script>
+    </body>
+</html>

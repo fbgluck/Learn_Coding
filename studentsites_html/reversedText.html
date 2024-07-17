@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Letter Reversals</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            #innerWrapper,
+            #innerWrapper.go {
+                font-family: Arial, Helvetica, sans-serif;
+                width: 40%;
+                margin:auto;
+            }
+            #readerInstructions {
+                text-align: center;
+                border-bottom:1px solid black;
+            }
+
+            #textInput {
+                width: 95%;
+                height: 200px;
+                resize: none;
+                display:block;
+                font-family:monospace;
+                white-space: pre;
+                
+             }
+            #displayArea {
+                width:95%;
+                height:200px;
+                 resize:none;
+                margin-top:20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:30px;
+                /* border:1px solid black; */
+            }
+
+            #goButton {
+                width:30%;
+                height:40px;
+                margin-top:40px;
+            }
+
+            .go {
+                background-color:rgb(222, 221, 221);
+                font-size: 20px;
+                margin-left:auto;
+            }
+            span.backward /* makes a letter display backward */
+             {
+                display: inline-block;
+                transform: scaleX(-1);
+            }
+            
+            .letter
+            {
+                font-size: 2cm; 
+            }
+
+            .reverseTable {
+                border-spacing:0 15px;
+            }
+
+            .reverseRow {
+                margin-bottom:20px;
+            }
+            
+            .reverseData{
+                /* border:1px solid black; */
+                width:14%;
+                font-size:25px
+            }
+/* PRINTING STYLES */
+            @media print { 
+                #userInstructions,
+                #textInput,
+                #goButton {
+                    display:none
+                }
+                #innerWrapper {
+                    width:95%
+                }
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <div id="innerWrapper">
+            <div id="userInstructions">
+                <p>Enter words separated by spaces. Use ENTER to terminate a line.</p>
+                <p>For each letter you want to print backwards, preceed the letter</p>
+                <p>with an asterisk (e.g. *a will print a reverse a".</p>
+                <br/>
+                <p>To create the reversed text, click the Reverse Text button.</p>
+                <p>When you print the document, only the user instructions and original text will</p>
+                <p>not be printed.</p>
+            </div>
+            <div id="inputBox"> <!-- This is the box where the text to be reversed is input -->
+                <textarea id="textInput" name ="textInput" spellcheck="false" placeholder="Type text input here..."></textarea>
+            </div>
+            <div id="goButton">
+                <button type="button" class="go" onclick="reverseLetter()">Reverse Text!</button>
+            </div>
+            <div id="readerInstructions">
+                <h1>Letter Reversals</h1>
+                <h2>Circle every backward letter you find</h2>
+            </div>
+            <div id="displayArea"> <!-- this is the box where the reversed text is displayed -->
+                <!-- <p class="letter">t<span class="backward">h</span>is is a t<span class="backward">e</span>st</p> -->
+            </div>
+        </div>
+        
+        <script>
+            // this script reads every letter from the input area
+            // and processes the letters one by one. If a / is detected,
+            // the css is written to surround the letter so that it is rendered
+            // in reverse.
+            
+            // Globals
+
+            // Add an event listener that calls the function reverseLetter each time a letter is input
+            // textInput.addEventListener('input', reverseLetter);
+            // console.log("Event Listener Added");
+
+            function reverseLetter() {
+                // this function is executed when the button is pressed
+                // Read the contents of the source contents box into a string
+                textInput.innerHTML=textInput.innerHTML.replaceAll(/(\n|\r\n|\r)/g, '<br/>')
+                sourceContents = document.getElementById('textInput').value; // Grab the entire contents of text input
+                console.log("Source at beginning: ", sourceContents);
+                
+                // use regex to replace all the text
+                // Grest Source: https://regex101.com/
+                // Great Source: https://www.freecodecamp.org/news/javascript-string-replace-example-with-regex/
+                const regExp = /\*(.)/g;   //Matches all * followed by any single char
+                const spaceRegExp = /((\s)(?!class=))/g;  // Regex Negative lookahead. Matches all spaces except those followed by 'class='
+                const newLineExp = /(\n|\r\n|\r)/g;  // Indicates end of line
+
+                // newline indicates the end of a table cell, followed by the end of a table row 
+                // followed by the beginning of a new table row and table cell
+                workingContents = sourceContents.replaceAll(newLineExp,'</td></tr><tr class=reverseRow><td class=reverseData>')
+                // workingContents = sourceContents.replaceAll(newLineExp,'<NEW>')                 
+
+                // Spaces indicate the end of a table cell and the beginning of a new cell
+                workingContents = workingContents.replaceAll(spaceRegExp,"</td><td class='reverseData'>")
+
+                 // this replaces all letters preceeded by an *
+                workingContents = workingContents.replaceAll(regExp, "<span class='backward'>$1</span>")
+                // Final wrap. Add ending HTML to close off last cell, row and table
+                workingContents =  workingContents + "</td></tr></table>"
+                // Put starting HTML
+                workingContents =  "<table class='reverseTable'><tr class='reverseRow'><td class='reverseData'>"+ workingContents
+                const newContents = workingContents
+                console.log("NewContents:", newContents)
+                // set the display area to the new text 
+                displayArea.innerHTML = newContents;
+
+            }
+
+        </script>
+    </body>
+</html>
