@@ -1,2 +1,0 @@
-<<<Logfile started at:2023-05-19 09:26:16.370673>>>
-2023-05-19 09:26:16.821007 :: This is the second line of the file
