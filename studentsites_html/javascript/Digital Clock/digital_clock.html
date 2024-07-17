@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+
+    <style>
+        #clock { 
+            table-layout: fixed;
+            width:100px;
+            height:200px;
+        }
+
+        #top {
+            border-top: 3px solid black;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+        }
+
+        #bottom {
+            border-top: 3px solid black;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="clock-digit-1"
+        <p id="Title">Digital Clock</p>
+        <table id="clock"> <!-- Clock has 8 section. 4 on top, 4 on bottom-->
+            <tr>
+                <td id="top"></td>
+            </tr>
+            <tr>
+                <td id="bottom"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="buttonArea"> <!-- Holds the button to start generation of the table-->
+        <button id="goButton" type="button">Next</button>
+    </div>
+
+
+    <script>
+        goButton.addEventListener('click', nextNumber);
+
+        function nextNumber(){
+            const side = document.getElementById('top');
+            side.style.borderTopColor = 'white'; // remember to use camelcase not -
+        }
+    </script>
+</body>
+</html>

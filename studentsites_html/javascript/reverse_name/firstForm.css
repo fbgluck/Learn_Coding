@@ -1,0 +1,62 @@
+/* Style sheet for first HTML page */
+#outer {
+    width:100%;
+    padding:20px;
+    margin:auto;
+}
+#pageMenu {
+    width:50%;
+    padding:20px;
+    background-color:#000000;
+    margin:auto;
+    height:50px;
+}
+
+#pageMenu a {
+    color: #ffffff;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding:2px;
+    margin:0px 2px 0px 2px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+#pageMenu a:hover {
+    color:black;
+    background-color:white;
+    border-bottom:3px solid orange;
+    font-weight: bold;
+
+}
+
+#contentWrapper {  /* Uses a selector for outer */
+    width:50%;
+    padding:20px;
+    margin:auto;
+    border:1px solid black;
+    background-color: #eded8e; /* Use ColorPicker */
+    box-shadow: 10px 10px 5px rgb(226, 229, 229); ;
+}
+
+#contentWrapper h1,
+#greeting h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.buttonHolder { /* Uses a class selector */
+    position:relative;
+    display:grid;
+}   
+
+.stdButton {
+    margin:10px auto 10px auto; /* top, right, bottom, left (TRouBLe) */
+}
+
+#buttonTable {
+    table-layout: fixed;
+    width:100%
+}

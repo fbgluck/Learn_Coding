@@ -1,0 +1,141 @@
+/* CSS for CNS1 Weekday Schedule
+Author: Fredric Gluck
+Revision: 1.0
+*/
+
+/* Outer border to give me total control of the content area */
+#outer {
+  margin-left:10px;
+  margin-right:10px;
+}
+
+#header_container {
+	display:block;
+	width:100%;
+}
+
+#header_text {
+  text-align: center;
+	display:block;
+	width:100%;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#left_column {
+	width:25%;
+	float:left;
+}
+#image_container {
+  width:100%;
+	float:left;
+}
+#img_top_left {
+	float:left;
+	max-width:100%;
+	max-height:100%;
+		box-shadow: 3px 3px 5px  grey;
+}
+
+#sidebar {
+  float:left;
+	padding:3px 3px 0px 3px;
+}
+
+#sidebar p::first-letter {
+	font-size:30px;
+	font-weight:bold;
+	background-color:grey;
+	color:white;
+	padding:0px 3px 0px 3px;
+}
+
+#right_column {
+	float:left;
+	width:75%
+}
+
+#schedule_title {
+	min-height:135px;
+  text-align:center;
+}
+
+#title_line_1, #title_line_2, #prepared_for {
+	text-transform:capitalize;
+}
+
+
+#title_line_1 {
+  font-size:30px;
+  font-weight:bold;
+  
+}
+
+#schedule_container {
+  float:left;
+	margin-left:3px;
+	margin-top:21px;
+}
+
+#schedule_table {
+	float:left;
+}
+
+#schedule_table_core {
+	border-collapse:collapse;
+	width:100%;
+	table-layout: fixed;
+}
+
+.col_1 {
+	width:20%;
+}
+
+.col_2 {
+	width:20%;
+}
+
+.col_3 {
+	width:60%;
+}
+
+th,td {
+  border-style:solid;
+  border-color: #000000;
+  border-width: 1px;
+}
+
+th { 
+	font-size: 20px;
+	background-color:#000000;
+	color:#ffffff;
+}
+
+td{
+	  font-size: 15px;
+		padding:2px;
+}
+
+.cell_content_red, .cell_content_white {
+font-weight: bold;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right:5px;
+}
+.cell_content_red {
+  background-color:red;
+  color:white; 
+}
+
+.cell_content_white {
+  background-color:white;
+  color:black;
+}
+
+footer {
+	float:left;
+	text-align:center;
+	margin-top:10px;
+	width:100%;
+	border-top:1px solid #000000;
+}
