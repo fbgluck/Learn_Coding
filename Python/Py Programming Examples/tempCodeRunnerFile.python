@@ -1,0 +1,6 @@
+quilt_patterns = ["stripe", "chevron", "square", "diamond"]
+quilt_patterns.append("diagonal")
+quilt_patterns.sort()
+quilt_patterns.reverse()
+print(quilt_patterns)
+
