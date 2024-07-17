@@ -1,5 +1,0 @@
-x = True
-y = False
-if y == False:
-   x = False
-print(type(x))
