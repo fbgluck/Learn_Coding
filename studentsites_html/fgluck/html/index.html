@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JavaScript Demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="firstForm.css">
+        <script src="processForm.js" defer></script>
+    </head>
+    
+    <body>
+        <div id="outer">
+            <h1>This is my first HTML and Javascript Page</h1>
+            <div id="greeting">
+                <h2> Hello World</h2>
+            </div>
+            <h3> Please tell me your name:</h3>
+            <form>
+                <label for="FirstName">First name:</label>
+                <input type="text" id="firstName" name="firstName">
+
+                <label for="lastName">Last name:</label>
+                <input type="text" id="lastName" name="lastName">
+            </form>
+
+            <div class="buttonHolder">
+                <!-- define the button and the function when it is pressed -->
+                <button class="stdButton" onclick="reverseName();">Reverse Name</button>
+            </div>
+            <br/>
+            <a href="http://www.google.com">This is a link to Google</a>
+            <h2 id="title">Your Reversed Name is:</h2>
+            <!-- define the paragraph that will hold the reversed name-->
+            <p id="outputParagraph">&nbsp;</p>
+
+            <div class="buttonHolder">
+                <button class="stdButton" onclick = "reset();">Reset</button>
+            </div>
+
+        </div>
+    </body>
+</html>
