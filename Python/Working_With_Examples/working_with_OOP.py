@@ -43,6 +43,7 @@ class DeliveryDroneTypeA:
   #define a property of the object that can not be changed
   fuel_type="JetA" 
   # Define a method called drone_launch
+  # ---- End of Constructor --
   def drone_launch(self):
     if self.drone_speed >3:
       self.fly_time_minutes = 5
