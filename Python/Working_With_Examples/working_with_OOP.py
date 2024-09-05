@@ -40,6 +40,7 @@ class DeliveryDroneTypeA:
     # These are dynamic attributes. They can be changed
     self.flight_id = flight_id
     self.drone_speed = drone_speed
+    print(f"The color is {self.drone_speed}")
   #define a property of the object that can not be changed
   fuel_type="JetA" 
   # Define a method called drone_launch
