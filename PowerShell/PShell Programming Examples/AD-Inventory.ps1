@@ -24,5 +24,7 @@ foreach ($line in $csvData) {  # Reads each line into an object called $line
     Write-Host "Found Computer: ",$line.'Name'}
 
 # Now get serious and process each line with something useful
+foreach ($line in $csvData) {  # Reads each line into an object called $line 
 Get-CimInstance -ClassName Win32_OperatingSystem |
   Select-Object -Property BuildNumber,BuildType,OSType,ServicePackMajorVersion,ServicePackMinorVersion, InstallDate | Format-Table
+}
