@@ -10,7 +10,7 @@
 $machineNames = @()
 # Fill the array with a list of retrieved names
 $machineNames=(Get-ADComputer -Filter "*" | Select-Object Name |Sort-Object Name)
-# 
+# Header for the output
 Write-Host "There are: ",$machineNames.count," systems found."
 Write-Host "    SysName        |                  Rel Date          |             BIOS Ver          "
 Write-Host "----------------------------------------------------------------------------------------"
