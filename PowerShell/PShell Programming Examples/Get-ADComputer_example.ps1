@@ -20,9 +20,9 @@ Get-ADComputer -Filter "name -like '*'" -Properties Name, LastLogonDate, IPv4Add
 #  
 # Domain User Inventory
 Write-Host "Domain Users" -BackgroundColor Yellow -ForegroundColor Black
-Get-ADUser -Filter "name -like '*'" -properties Surname, GivenName, SamAccountName
+Get-ADUser -Filter "name -like '*'" -properties Surname, GivenName, SamAccountName, Enabled
 | sort-Object Surname
-| Format-Table Surname, GivenName, SamAccountName -AutoSize
+| Format-Table Surname, GivenName, SamAccountName, Enabled -AutoSize
 
 
 # Inactive System List
