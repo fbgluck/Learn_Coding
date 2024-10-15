@@ -1,13 +1,22 @@
 # Sample code for Loops
-# Uses the range(start, stop, interval) function
-# Stop must have a value. If one arg is supplied, it is assumed to be stop
+######################################################
+# For loops typically use the range(start, stop, interval) function
+# The stop value is required. 
+#   If one arg is supplied, it is assumed to be stop
 # Start default = 0
 # Interval default = 1
+# Testing of the value is done before the loop statements are executed
+# If the test fails, executions continues at the first statement outside the loop
 
 # The range function with defaults
 print("Count from 0 to 4 (5 items) using the range() function")
-for value in range(5):
+# by default, the starting is 0, the ending is 5
+for value in range(5): 
     print(f"The value is now {value}")
+#This increases the variable by 2 (start,step,interval)
+for value in range(1,100,2): 
+    print (f"The number is {value}")
+
 input("Type ENTER to continue or ^C to break..")
 print("Demonstration of 'for' statement with 'range'")
 print(30*"-")
