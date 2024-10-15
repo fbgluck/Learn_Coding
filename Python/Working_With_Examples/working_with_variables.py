@@ -21,6 +21,11 @@ print("the variable type of samplefloat is", type(
 # The dir function will show all methods of an object passed to it
 # print(dir(samplefloat))
 
+# Using Literal characters
+print("This is a quote \" ")  #The backslash says take the next character literally
+print('You can also use single quotes. It\'s a nice day today.')
+print("You can also use single quotes. It\'s a nice day today.")
+
 # More Examples and a shortcut for declairing multiple variables at once
 
 test_score = 45  # snake case
