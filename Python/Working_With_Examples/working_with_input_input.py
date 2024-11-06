@@ -19,6 +19,9 @@ my_name=input("What is your name? ") #Asks the user for their name
 # Ask what year the user was born and assign it to a variable
 birth_year = input("What year were you born? ")
 birth_year_int = int(birth_year) # Converts the string input to an integer and assigns it to a new variable
+# You can combine the two previous lines into a single line of code
+birth_year=int(input("What year were you born?"))
+
 # Figure out how old the user is
 your_age = 2024 - birth_year_int 
 #print a message that shows the results
