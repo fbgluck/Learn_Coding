@@ -3,6 +3,9 @@
 ## Lists are a built-in Python Data Type that are used to 
 ## store multiple items in a single variable.
 
+# Lots of actions (methods) you can do with a list: (search: list methods python)
+# lists are mutable -- they can be changed after they are created
+
 # ------- This stuff is used to make the output readable ------------------------
 line_sep = '*'*30 #This is a global variable known to all functions
 def fn_line_seperator():
@@ -22,11 +25,15 @@ print (f'The score against {shs_football_opponents[1]} was {shs_football_scores[
 fn_line_seperator()
 
 # How would you print a scorecard for SHS football for these 5 games. Hint -- user iteration / for / range
-
+print(f"Points scored against Sanford")
+for list_index in range(0,len(shs_football_scores)): # Points to each list entry 
+   print(f"{shs_football_opponents[list_index]} -- {shs_football_scores[list_index]}")
+input("paused - use RETURN to continue")
+   
 
 
 # The first list entry is item "0"
-print (major_authors[3]) #gives you the fourth entry in the list
+print (major_authors[3]) #gives you the fourth (0,1,2,3) entry in the list
 fn_line_seperator()
 
 # Lists can be manipulated and queried (added to, subtracted etc using 'methods')
@@ -44,6 +51,7 @@ fn_line_seperator()
 print(f'Our shopping list is now: {shopping_list}')
 location=shopping_list.index('bacon')
 print (f'bacon appears in the list as item number {location}')
+
 fn_line_seperator()
 
 # .count counts the number of times an item is in a list
@@ -54,7 +62,10 @@ if x==0:
    print (f"Item is not in the list") # count was 0
 else:
    print (f"Item was in the list {x} times")
-     
+
+notInList = shopping_list.count('lemonade')
+print(f"Lemonade is not in the list since notInlist is: {notInList}") 
+
 # We can assign one list to another variable to make a copy of it
 new_list = shopping_list
 print(f'shopping_list is: {shopping_list}')
@@ -69,8 +80,7 @@ print(f'modified shopping_list is now: {shopping_list}')
 fn_line_seperator()
 
 # ********* .extend Method *******************
-#.extend method -- extends a list from the print
-# This is an 'iterable' meaning it will do the
+#.extend method -- extends a list from the end
 #.extend over the list of items 
 shopping_list = ["item_one", "item_two"]
 shopping_list.extend(['flour','grapes','iodine'])
@@ -90,6 +100,7 @@ print ('The item at index 0 is gone', shopping_list,'\n',30*'-','\n')
 
 # # ***** .remove Method *************
 # ## .remove - removes the item with a specified value from the list. Works in place
+shopping_list =[1,2,'carrots',4,5]
 shopping_list.remove('carrots')
 print('Our shopping list is shorter..', shopping_list,'\n',30*'-','\n')
 ## EXPERIMENT -- what happens if we remove an item not in the list
@@ -117,7 +128,7 @@ print('Are Carrots in the list?..',
 
 # ## Count how many times an item occurs
 target = 'carrots'
-print(target.title(),
+print(target.title(),  # initial cap the item
  'occurs '
  ,shopping_list.count(target),
  ' times',
@@ -125,7 +136,7 @@ print(target.title(),
 
 # This will not work.... why??
 target = 'r'
-print(f'{target} occurs {shopping_list.count(target)}times')
+print(f'{target} occurs {shopping_list.count(target)} times in the list.')
 fn_line_seperator
 
 # use count with strings

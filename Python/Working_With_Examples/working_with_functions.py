@@ -8,6 +8,28 @@
 
 
 # Functions
+# A really simple function that has no parameters passed to it
+def say_hello():
+    print("Hello There")
+# You call (invoke) this function using:
+say_hello()
+# ---------------------- 
+# Lets Expand this function a bit
+def say_hello_language (native_language):
+    match native_language:
+        case "French":
+            return "Bounjour"
+        case "Spanish":
+            return "Hola"
+        case "Italian":
+            return "Chaio"
+        case _:
+            "I'm so sorry, I don't undersand you"    
+# Call the function with parameters
+my_language = input ("What language are you speaking today?")
+print(say_hello_language(my_language))
+input ("RETURN to continue")
+    
 
 # Demonstration Function:
 # Input Params: Value for function
