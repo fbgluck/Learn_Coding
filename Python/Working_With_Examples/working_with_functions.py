@@ -129,7 +129,7 @@ print(absolute_value(-4))
 # - Testing the boiling water function
 water_temp = int(
     input("What is the temperature of the water (degrees F) now? "))
-if fn_is_it_boiling(water_temp):
+if fn_is_it_boiling(water_temp): # if True: 
     print("Hooray. Put in the noodles! ")
 else:
     print("Wait a bit longer for perfect pasta. ")
