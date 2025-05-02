@@ -1,4 +1,4 @@
-# Demonstration of Boolean
+# Demonstration of Boolean Types
 # True and False (Initial Caps) are keyword values
 # Don't confuse them with TRUE and FALSE which are constants
 # that have to have a value assigned to them.
