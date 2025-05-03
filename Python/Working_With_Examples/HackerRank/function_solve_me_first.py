@@ -2,7 +2,7 @@
 # REF: https://www.w3schools.com/python/python_functions.asp
 # Complete the solveMeFirst function in the editor below.
 #
-# solveMeFirst has the following parameters:
+# solveMeFirst function  has the following parameters:
 #
 # int a: the first value
 # int b: the second value
