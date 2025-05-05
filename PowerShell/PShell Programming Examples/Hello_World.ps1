@@ -2,6 +2,6 @@
 # AUthor: Fredric Gluck
 # ********************************
 # This is my first program that prints information about a disk
-cls
+Clear-Host
 Write-Host "Hello World" -ForegroundColor Yellow -BackgroundColor Gray
 
