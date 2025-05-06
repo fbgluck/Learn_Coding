@@ -1,0 +1,1 @@
+Get-ComputerInfo | Select-Object "BiosReleaseDate", "LogonServer", "CSModel"
