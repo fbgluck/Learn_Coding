@@ -4,6 +4,9 @@ Clear-Host
 # Initialize Counting Variables
 $enUsers = 0
 $disUsers = 0
+$totalMem=0 # Total Memory in System
+$mbConverion = 1073741824 # Actual Number of Bytes in a Megabyte
+$tempMem = 0
 Write-Host ("Local User Status for: $env:COMPUTERNAME") # contents of environment variable
 Write-Host "----------------------------------"
 
@@ -23,7 +26,36 @@ Write-Host "--------------------------------------"
 Write-Host ("Total of $enUsers enabled users")
 Write-Host ("Total of $disUsers disabled users")
 Write-Host
+Write-Host "--------------------------------------"
 
-$cpuInfo = Get-CimInstance -ClassName Win32_Processor
-write-Host$cpuInfo.Name -contains "Intel(R) Xeon(R) Gold 5118 CPU @ 2.30GHz" # should be True
+## CPU Information 
+Write-Host
+Write-Host("CPU Information")
+Write-Host "--------------------------------------"
+Get-CimInstance -ClassName Win32_Processor | ForEach-Object -Process {
+    Write-Host ("$($PSItem.DeviceID) -- ") -NoNewline
+    Write-Host ($PSItem.Name) -NoNewline
+    Write-Host (" // $($PSItem.NumberOfCores) cores")
+}
+Write-Host "--------------------------------------"
+## Memory Information
+Write-Host
+Write-Host("Memory Information")
+Write-Host "--------------------------------------"
+Get-CimInstance -ClassName CIM_PhysicalMemory | ForEach-Object -Process {
+    Write-Host ("$($PSItem.Tag):  ")
+    Write-Host ("    Slot: $($PSItem.DeviceLocator)")
+    Write-Host ("    Part No: $($PSItem.PartNumber)")
+    Write-Host ("    Speed: $($PSItem.Speed)Mhz")
+    $tempMem = $PSItem.Capacity/1073741824 
+    Write-Host ("    Capacity: $($tempMem)GB")
+    $totalMem = $totalMem + $tempMem
+}
+Write-Host
+Write-Host ("Total System Memory: $totalMem GB") -ForegroundColor Yellow
+Write-Host "--------------------------------------"
+## Storage
 
+Write-Host
+Write-Host("Storage")
+Write-Host "--------------------------------------"
