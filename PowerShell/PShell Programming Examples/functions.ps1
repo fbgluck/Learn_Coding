@@ -3,13 +3,14 @@
 
 #>
 #--------------------------------------------------
+Clear-Host
 # Define Functions For This Program
 function Write-Greeting {
     $firstName = Read-Host "Enter your first name"
     $LastName = Read-Host "Enter the last name"
     $result = "Hello " + $firstName + " " + $LastName
     Write-Host Greeting: $result 
-}
+} # End of Function Write-Greeting
 
 # This function takes parameters
 function Write-BetterGreeting {
