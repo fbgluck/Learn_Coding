@@ -7,6 +7,18 @@ $disUsers = 0
 $totalMem=0 # Total Memory in System
 $mbConverion = 1073741824 # Actual Number of Bytes in a Megabyte
 $tempMem = 0
+# Hash table for disk types detected by Get-CimInstance
+# Ref: https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-logicaldisk
+$diskType = @{  }
+    $diskType.add(0,"unknown")
+    $diskType.add(1,"no root directory")
+    $diskType.add(2,"Removable Disk")
+    $diskType.add(3,"Local Disk")
+    $diskType.add(4,"Network Drive")
+    $diskType.add(5,"Compact Disk (CD)")
+    $diskType.add(6,"RamDisk")
+
+
 Write-Host ("Local User Status for: $env:COMPUTERNAME") # contents of environment variable
 Write-Host "----------------------------------"
 
@@ -59,3 +71,38 @@ Write-Host "--------------------------------------"
 Write-Host
 Write-Host("Storage")
 Write-Host "--------------------------------------"
+Get-CimInstance -ClassName Win32_LogicalDisk |
+# Select DeviceID, volumeName, Size, FreeSpace Status
+Format-Table @{Label="DeviceID";Expression={$PSItem.DeviceID}},
+    @{Label="VolumeName";Expression={$PSItem.VolumeName}},
+    @{Label="DriveType" ;Expression = {
+            switch ($PSItem.DriveType) { 
+                0     {'unknown - (Type 0)'}
+                1     {'No root directory (Type 1)'}
+                2     {'Removable Disk (Type: 2)'}
+                3     {'Local Disk (Type: 3)'}
+                4     {'Network Drive (Type 4)'} 
+                5     {'Compact Disk (Type 5)'}
+                6     {'RAM Disk (Type 6)'}    
+                default {"unavailable"}
+            }  # End of switch
+        } #End of Expression
+    }, # End of Label
+    @{Label="Size (GB)";Expression={$PSItem.Size/1073741824}},
+    # @{Label="Free Space (GB)";Expression={$PSItem.FreeSpace/1073741824 }},
+    @{Label="% Free ";Expression={($PSItem.FreeSpace/$PSItem.Size)*100}}
+
+Write-Host "Display Adapters"
+Write-Host "--------------------------------------"
+# get-PnpDevice | Where-Object { $PSItem.Class -match 'Net|Display|Media' } |Select Status, Class,FriendlyName, Manufacturer | Sort-Object Class
+# get-PnpDevice | Where-Object { $PSItem.Class -match 'Display' } | Select-Object Status,Manufacturer,FriendlyName
+
+Get-WmiObject Win32_VideoController | Format-Table @{Label="Device";Expression={$PSItem.Name}},
+    @{Label="AdapterRAM (GB)";Expression={$PSItem.AdapterRAM/1073741824}}
+
+
+Write-Host "Physical Network Adapters"
+Write-Host "--------------------------------------"
+
+Get-NetAdapter -Physical |Select-Object Name, InterfaceDescription,LinkSpeed,NetworkAddresses,Status |Format-List
+Get-NetIPAddress  |Select-Object IPv4Address, IPv6Address
