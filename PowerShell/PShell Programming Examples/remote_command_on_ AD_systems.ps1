@@ -18,7 +18,7 @@ Clear-Host # Clears screen
 $verbosePreference = "Continue" # set option to continue after verbose message displayed (ref: PowerShell Preference Variables)
 write-verbose -message "Program Starts at: $(get-date)" # How to display function along with message
 Get-NetConnectionProfile
-break
+# break
 # Start by getting a list of all computers in the domain
 Get-ADComputer -filter * | ForEach-Object -begin {
     write-host " Starting scan " -ForegroundColor White -BackgroundColor Blue

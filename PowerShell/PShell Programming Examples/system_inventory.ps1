@@ -18,9 +18,10 @@ $diskType = @{  }
     $diskType.add(5,"Compact Disk (CD)")
     $diskType.add(6,"RamDisk")
 
-
+$PSStyle.Formatting.Underline = $true
 Write-Host ("Local User Status for: $env:COMPUTERNAME") # contents of environment variable
-Write-Host "----------------------------------"
+$PSStyle.Formatting.Underline = $false
+#Write-Host "----------------------------------"
 
 Get-LocalUser | 
 ForEach-Object -Process {
