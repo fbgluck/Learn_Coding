@@ -13,7 +13,7 @@ try: help format
 # Format-Custom
 Clear-Host
 Get-Service 
-    |where-Object -property {$_.status -EQ "stopped"}
+    |where-Object -property {$PSItem.status -EQ "stopped"}
     |Format-Table Name, Status, CanShutdown 
     |more
 Get-Service | Where-Object { $_.Status -eq "Stopped" }
