@@ -29,7 +29,7 @@ $fileName = $env:USERPROFILE + "\desktop\sysinv-" + $fileDate + ".csv"
 if (Test-Path $fileName){
   # Delete the file if it does exist
   Remove-Item $fileName
-  Write-Host "$fileName exist. Removing file"
+  Write-Host "$fileName exists. Removing file"
 }
 # File does not exist - create the file and do not output the listing (default behavior)
 New-Item -ItemType File -Path $filename |out-Null
