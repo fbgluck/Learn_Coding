@@ -4,7 +4,8 @@
 // Its sole purpose is to show how you can modify a DOM programatically
 //
 // ref: https://www.delftstack.com/howto/javascript/javascript-add-text/
-
+console.clear()
+console.log("Starting javascript in first_program.js")
 // A text string we are going to dynamically insert
 let today = "Today's date is: " + new Date();
 
@@ -15,7 +16,7 @@ const ptag_1 = document.createElement("p");
 // and set the ID attribute so we can select it later
 ptag_1.setAttribute('id', "fixed_text");
 //create some text to add to the node
-var text = document.createTextNode("This text was inserted by javascript");
+var text = document.createTextNode("The following text was inserted by javascript");
 // and append the text node to the DOM leaf we created  
 ptag_1.appendChild(text);
 // create another <p> node that will hold the date and time text

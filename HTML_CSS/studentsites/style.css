@@ -1,7 +1,11 @@
 /* body */
 body {
     margin:20px;
-    background-color:rgb(235, 235, 230)
+    background-color:rgb(208, 215, 202);
+}
+div#top_container, div#other_links {
+    width:100%;
+    margin-bottom:10px;
 }
 
 /* Page Header */
@@ -14,9 +18,20 @@ h1#top_header {
     margin-bottom: 20px;
 }
 
+/* div containing table and image */
+div#main_content {
+    overflow:auto; /* needed because child divs are floated to make it expand to contain child divs. */
+    width:100%;
+    margin-bottom: 7px;
+}
+/* div containing just the link table */
+div#link_table {
+    padding-top:40px;
+}
 /*Pagelink Tables */
 table#ss_pagelink_table {
     margin-left:40px;
+    padding-top:20px;
     width: 40%;
     float:left;
 }
@@ -73,6 +88,16 @@ h2#intro_paragraph {
     font-weight: bold;
     text-align: center;
 }
+/* Assignment Instructions */
+div#assignment_instructions {
+    width:100%;
+    float:left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:larger;
+    border: 1px solid grey;
+    margin-bottom:7px;
+    padding: 4px;
+}
 
 /* Class picture */
 div#class_pics>img {
@@ -80,5 +105,17 @@ div#class_pics>img {
     width: 40%;
     float:right;
     margin-right:10px;
+    border-radius: 15px;
 
+}
+div#other_links {
+    float:left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    text-align: center;
+    background-color: cadetblue;
+}
+.subtext {
+    font-weight: Bold;
+    color:red;
 }

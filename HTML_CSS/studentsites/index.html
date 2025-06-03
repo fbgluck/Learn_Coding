@@ -3,51 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <link rel="stylesheet" href="style.css">
+    <!-- favicon generated at favicon.cc-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
     <title>Student Sites</title>
 </head>
 <body>
-    <h1 id="top_header">Student Sites - Class of 2025</h1>
-    <hr/>
-    <h2 id="intro_paragraph">
-        This page contains links to personal sites of each of the 
-        students from the ITN1 class of 2025.
-    </h2>
-    <hr/>
-    <div id="link_table">
-        <table id="ss_pagelink_table">
-            <tr id="ss_table_header_row">
-                <th id="ss_table_header">Name</th>
-            </tr>        
-            <tr class="odd_row">
-                <td><a class="ss_pagelink" href="./bmorris">Click here for B. Morris Site</a></td>
-            </tr>
-            <tr class="even_row">
-                <td><a class="ss_pagelink" href="./bday">Click here for Brian Day Site</a></td>
-            </tr>
-            <tr class="odd_row">
-                <td><a class="ss_pagelink" href="./cwolfe">Click here for Cole Wolfe Site</a></td>
-            </tr>
-            <tr class="even_row">
-                <td><a class="ss_pagelink" href="./ghutchinson">Click here for Gordon Hutchinson Site</a></td>
-            </tr>
-            <tr class="odd_row">
-                <td><a class="ss_pagelink" href="./iday">Click here for Isaac Day Site</a></td>
-            </tr>
-            <tr class="even_row">
-                <td><a class="ss_pagelink" href="./instructor">Click here for Mr. Gluck Site</a></td>
-            </tr>
-            <tr class="odd_row">
-                <td ><a class="ss_pagelink" href="./lhayes">Click here for Lincoln Hayes Site</a></td>
-            </tr>
-            <tr class="even_row">
-                <td ><a class="ss_pagelink" href="./schristian">Click here for Shawn Christian Site</a></td>
-            </tr>
-        </table>
-    </div>
-
-    <div id="class_pics">
-        <img src="./class_picture.jpg"/>
+    <div id="top_container">
+        <h1 id="top_header">Student Sites - Class of 2025</h1>
+        <hr/>
+        <h2 id="intro_paragraph">
+            This page contains links to personal sites of each of the 
+            students from the ITN1 class of 2025.
+        </h2>
+        <hr/>
+    </div> <!-- Top container-->
+    <div id="main_content">
+        <div id="link_table">
+            <table id="ss_pagelink_table">
+                <tr id="ss_table_header_row">
+                    <th id="ss_table_header">Links to Student Sites...</th>
+                </tr>        
+                <tr class="odd_row">
+                    <td><a class="ss_pagelink" href="./studentsites/bmorris">Click here for B. Morris Site</a></td>
+                </tr>
+                <tr class="even_row">
+                    <td><a class="ss_pagelink" href="./studentsites/bday">Click here for Brian Day Site</a></td>
+                </tr>
+                <tr class="odd_row">
+                    <td><a class="ss_pagelink" href="./studentsites/cwolfe">Click here for Cole Wolfe Site</a></td>
+                </tr>
+                <tr class="even_row">
+                    <td><a class="ss_pagelink" href="./studentsites/ghutchinson">Click here for Gordon Hutchinson Site</a></td>
+                </tr>
+                <tr class="odd_row">
+                    <td><a class="ss_pagelink" href="./studentsites/iday">Click here for Isaac Day Site</a></td>
+                </tr>
+                <tr class="even_row">
+                    <td><a class="ss_pagelink" href="./studentsites/instructor">Click here for Mr. Gluck Site</a></td>
+                </tr>
+                <tr class="odd_row">
+                    <td ><a class="ss_pagelink" href="./studentsites/lhayes">Click here for Lincoln Hayes Site</a></td>
+                </tr>
+                <tr class="even_row">
+                    <td ><a class="ss_pagelink" href="./studentsites/schristian">Click here for Shawn Christian Site</a></td>
+                </tr>
+            </table>
+        </div> <!-- End of Link Table -->
+        <div id="class_pics">
+            <img src="./class_picture.jpg"/>
+        </div> <!-- End of div #class_pics-->
+    </div> <!-- End of Main Content -->
+    <div id="assignment_instructions">
+        <p>Your assignment is to create and upload two HTML pages
+            with CSS styles in a separate linked css files.
+        </p>
+        <p>The two pages are:
+            <ul>
+                <li><span class="subtext">Page 1:</span> A page about any subject. The page should
+                    include text and images.
+                </li>
+                <li><span class="subtext">Page 2:</span> Your personal sample HTML tutorial
+                    page that you created in class as part of learning HTML.
+                </li>
+            </ul>
+        </p>
+        <p>In order to make navigation easier, 
+            each of these pages should be linked using an anchor &lt;a&gt; tag.
+            This will allow you to simply click on a link to go from
+            one page to another. Finally, make sure you also include a back button to get back to your "home" page.
+    </div> <!-- End of Assignment Instructions -->
+    <div id="other_links">
+       <p>Check out the html reference page <a href="./html_reference.html">here</a>.</p>
     </div>
 </body>
 </html>
