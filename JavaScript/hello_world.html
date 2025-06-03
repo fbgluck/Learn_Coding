@@ -3,15 +3,25 @@
 <head>
 <script>
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
+  document.getElementById("demo").innerHTML = "You clicked... the paragraph was changed.";
   console.log('from myFunction: Hello world Hello');
+}
+function changeTextColor() {
+  document.getElementById("demo").style.background="yellow";
+}
+
+function restoreDefault(){
+  const target = document.getElementById("demo");
+  target.style.removeProperty("background");
+  target.innerHTML="This is a paragraph displayed when the page loads."
 }
 </script>
 </head>
 <body>
-<h2>Demo JavaScript in Head</h2>
-<p id="demo">A Paragraph displayed when the page loads</p>
+<h2>Demo - JavaScript in Head</h2>
+<p id="demo">This is a paragraph displayed when the page loads.</p>
 <button type="button" onclick="myFunction()">Change the text</button>
-
+<button type="button" onclick="changeTextColor()">Change the background</button>
+<button type="button" onclick="restoreDefault()">Reset</button>
 </body>
 </html>
