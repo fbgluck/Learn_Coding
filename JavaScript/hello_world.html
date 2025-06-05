@@ -2,24 +2,27 @@
 <html>
 <head>
 <script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "You clicked... the paragraph was changed.";
-  console.log('from myFunction: Hello world Hello');
-}
-function changeTextColor() {
-  document.getElementById("demo").style.background="yellow";
-}
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "You clicked... the paragraph was changed.";
+    console.log('from myFunction: Hello world Hello');
+  }
+  function changeTextColor() {
+    document.getElementById("demo").style.background="yellow";
+  }
 
-function restoreDefault(){
-  const target = document.getElementById("demo");
-  target.style.removeProperty("background");
-  target.innerHTML="This is a paragraph displayed when the page loads."
-}
+  function restoreDefault(){ // restores all items to their default
+    // assign an object to a variable
+    const target = document.getElementById("demo");
+    // remove all properties of the object
+    target.style.removeProperty("background");
+    // set the HTML of the element to the default 
+    target.innerHTML="This is a <strong>paragraph</strong> displayed when the page loads."
+  }
 </script>
 </head>
 <body>
 <h2>Demo - JavaScript in Head</h2>
-<p id="demo">This is a paragraph displayed when the page loads.</p>
+<p id="demo">This is a <strong>paragraph</strong> displayed when the page loads.</p>
 <button type="button" onclick="myFunction()">Change the text</button>
 <button type="button" onclick="changeTextColor()">Change the background</button>
 <button type="button" onclick="restoreDefault()">Reset</button>

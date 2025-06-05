@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script>
+        function changeValue(direction) {
+            // Get value from numeric field
+            targetField = document.getElementById("counterField")
+            value=targetField.innerHTML
+            //convert the text to a number so we can "math" it
+            valueNumber = Number(value);
+            console.log("I got",valueNumber, "and", direction);
+            // Decide if increase or decrease
+            // change the counter value
+            if (direction ==="up") {
+                valueNumber = valueNumber+1;
+            }
+            else {
+                valueNumber = valueNumber-1;
+            }
+                console.log("valueNumber is now", valueNumber)
+                // assign the number back to the inner HTML of our counter
+                targetField.innerHTML=valueNumber;
+            // have you exceeded maximum value
+
+        } // End of function
+  </script>
+</head>
+<body>
+    <h2 id="title">Sample Counter (JavaScript and HTML)</h2>
+    <hr/>
+    <p id="counterField">0</p>
+    <table id="buttonTable">
+        <tr>
+            <td><button id="btnUp" onclick="changeValue('up')">Up</button></td>
+            <td><button id="btnDown" onclick="changeValue('down')">Down</button></td>
+        </tr>
+    </table>
+    <!-- This is the area where the -->
+     <div ID="errorDiv">
+        <span ID="errorMessages">&nbsp;</span>
+    </div>
+</body>
+</html>
